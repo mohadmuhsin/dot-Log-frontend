@@ -86,7 +86,7 @@ login(){
         this.alertMessage = res.message;
         setTimeout(() => {
           this.alert = false;
-          this.router.navigate(['/'])
+          this.router.navigate(['/home'])
         }, 1000);
       },
       error:(error)=>{
