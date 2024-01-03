@@ -79,7 +79,6 @@ login(){
     let authData = this.formData.getRawValue()
     this.service.login(authData, false).subscribe({
       next:(res:any)=>{
-        console.log(res);
         this.alert = true
         this.condition = true
         this.alertTYpe = "Success alert!"
