@@ -57,8 +57,8 @@ googleLogin(){
       this.alertMessage = res.message;
       setTimeout(() => {
         this.alert = false;
-        this.router.navigate(['/'])
-      }, 5000);
+        this.router.navigate(['/home'])
+      }, 1000);
     },
     error:(err)=>{
       console.log(err);
